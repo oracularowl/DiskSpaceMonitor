@@ -1,0 +1,23 @@
+Slide 1 - Disk Space Monitor v1.3
+Hi, and welcome. This is Disk Space Monitor, version 1.3 — a small Windows app that keeps an eye on your free disk space for you. It's built with Python and Tkinter, and in this version it can even pause and resume a running 7-Zip extraction. Let's walk through how it works: picking a drive, setting a threshold, getting alerts, and a few real-world examples.
+
+Slide 2 - Choose the Disk to Monitor
+First, choose the drive you want to watch. The drop-down lists your Windows drives — your C drive, a D drive, a USB stick, whatever's connected. Plugged something in after opening the app? Just click Refresh Disks. Once a drive is selected, you'll see its total space, how much is used, how much is free, and the free-space percentage.
+
+Slide 3 - Set a Free-Space Threshold
+Next, decide what counts as low. In percent mode, you might say: warn me when the drive drops to ten percent free or less. That's great for general monitoring. In size mode, you set an actual amount — say, alert me when there's a hundred gigabytes left — which is handy when you need a specific amount of working room.
+
+Slide 4 - Read the Live Status
+The status panel updates on its own, every five seconds. The line to watch is Threshold reached. If it says Yes, your drive is already at or below the limit you set. Just below that, Popup monitoring tells you whether alerts are switched on. So you can keep an eye on things without turning on the pop-ups at all.
+
+Slide 5 - Start Popup Monitoring
+Ready for alerts? Click Start Monitoring. The app then checks your drive on a schedule — every thirty seconds, for example — and the moment the threshold is hit, a pop-up jumps to the front. Want to test it right now? Set percent free to one hundred and click Check Now. Every drive has a hundred percent or less free, so the alert fires straight away.
+
+Slide 6 - Pause a Running 7-Zip Extract
+Here's the new trick in 1.3: 7-Zip control. If a big extraction is hammering the disk and you need to ease off for a bit, click Refresh 7-Zip, pick the process it finds, and hit Pause 7-Zip. When you're ready, click Resume. It simply suspends and wakes the process back up — it never cancels your extraction.
+
+Slide 7 - Example Workflows
+Let's make it concrete with three quick examples. For a backup drive, use size mode and set it to a hundred gigabytes. For a USB stick, percent mode at ten percent works nicely. And for a big archive extraction, watch the target drive and pause 7-Zip if space gets tight. One tip: if 7-Zip was started as administrator, run this app as administrator too.
+
+Slide 8 - Where to Find the Files
+Last stop — where everything lives. The source file is disk_space_monitor_v1_3.py. The ready-to-run program is in the dist folder, as DiskSpaceMonitor_v1_3.exe. And the README covers setup, building, usage, and troubleshooting. That's the full tour of Disk Space Monitor 1.3. Thanks for watching!

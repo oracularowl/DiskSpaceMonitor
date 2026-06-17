@@ -1,0 +1,8 @@
+file 'C:/Users/aungm/OneDrive/Documents/FileEdit/DiskSpaceMonitor/media/segments/segment_01_natural.mp4'
+file 'C:/Users/aungm/OneDrive/Documents/FileEdit/DiskSpaceMonitor/media/segments/segment_02_natural.mp4'
+file 'C:/Users/aungm/OneDrive/Documents/FileEdit/DiskSpaceMonitor/media/segments/segment_03_natural.mp4'
+file 'C:/Users/aungm/OneDrive/Documents/FileEdit/DiskSpaceMonitor/media/segments/segment_04_natural.mp4'
+file 'C:/Users/aungm/OneDrive/Documents/FileEdit/DiskSpaceMonitor/media/segments/segment_05_natural.mp4'
+file 'C:/Users/aungm/OneDrive/Documents/FileEdit/DiskSpaceMonitor/media/segments/segment_06_natural.mp4'
+file 'C:/Users/aungm/OneDrive/Documents/FileEdit/DiskSpaceMonitor/media/segments/segment_07_natural.mp4'
+file 'C:/Users/aungm/OneDrive/Documents/FileEdit/DiskSpaceMonitor/media/segments/segment_08_natural.mp4'

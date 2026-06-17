@@ -234,4 +234,4 @@ Try running Disk Space Monitor as Administrator. Windows may block process contr
 
 ## License
 
-No license has been specified yet. Add a license file before publishing if you want others to reuse or modify the project under clear terms.
+This project is licensed under the MIT License. See the `LICENSE` file for details.
