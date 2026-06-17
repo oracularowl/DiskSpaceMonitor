@@ -10,6 +10,16 @@ Current source version: `disk_space_monitor_v1_3.py`
 
 Current standalone executable: `dist/DiskSpaceMonitor_v1_3.exe`
 
+## Voiceover Walkthrough
+
+Watch the short voiceover walkthrough for a quick tour of the main features, setup flow, threshold examples, popup monitoring, and 7-Zip pause/resume controls.
+
+<video src="media/walkthrough/DiskSpaceMonitor_v1_3_walkthrough.mp4" controls width="100%">
+  Your browser does not support embedded video. Open media/walkthrough/DiskSpaceMonitor_v1_3_walkthrough.mp4 instead.
+</video>
+
+Direct video link: [media/walkthrough/DiskSpaceMonitor_v1_3_walkthrough.mp4](media/walkthrough/DiskSpaceMonitor_v1_3_walkthrough.mp4)
+
 ## Features
 
 - Select a Windows drive to monitor, such as `C:\`, `D:\`, or removable drives.
@@ -151,6 +161,9 @@ DiskSpaceMonitor/
 |   |-- DiskSpaceMonitor_v1_1.exe
 |   |-- DiskSpaceMonitor_v1_2.exe
 |   `-- DiskSpaceMonitor_v1_3.exe
+|-- media/
+|   `-- walkthrough/
+|       `-- DiskSpaceMonitor_v1_3_walkthrough.mp4
 `-- build/
 ```
 
